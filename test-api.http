@@ -1,0 +1,8 @@
+### Test POST request
+POST http://localhost:5000/bfhl
+Content-Type: application/json
+
+{
+    "data": ["M", "1", "334", "4", "B", "Z", "a"],
+    "file_b64": "BASE_64_STRING"
+}
